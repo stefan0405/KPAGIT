@@ -1,0 +1,30 @@
+@page 
+{
+    size: auto;   /* auto is the current printer page size */
+    margin: 5mm;  /* this affects the margin in the printer settings */
+}
+@media print {
+    .gap {
+        display:none;
+    }
+    #skr{
+        display:none;
+    }
+    #search{
+        display:none;
+    }
+    .form-inline{
+        display:none;
+    }
+    .dgm{
+        display:none;
+    }
+    .col-md-12{
+        display:none;
+    }
+}
+.gap{ height: 10px;}
+.hide{dispaly: none;}
+#search{ padding-right: 15px;}
+.form-group span{ position: relative; left: -24px; top: 3px; cursor: pointer; display: none;}
+.form-group span:hover{ color: red;}

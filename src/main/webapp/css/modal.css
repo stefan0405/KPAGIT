@@ -1,0 +1,103 @@
+form{
+    margin-bottom: 0px;
+}
+.modal-content{
+    width: 400px;
+    margin: 20px auto;
+}
+.selectpicker{
+    height:35px;
+    width:88%;
+    border: none;
+    margin-bottom:15px;
+    margin-left:20px;
+}
+#header {
+    text-align: center;
+    height: 50px;
+    background: #222;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+#header1{
+    text-align: center;
+    height: 50px;
+    background: #222;
+    line-height: 50px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+section {
+    background: #ecf0f1;
+    padding: 20px;
+}
+textArea{
+    height:35px;
+    width:88%;
+    border: none;
+    margin-bottom:15px;
+    margin-left:20px;
+}
+#datePicker{
+    height:35px;
+    width:88%;
+    border: none;
+    margin-bottom:15px;
+    margin-left:20px;
+}
+#input{
+    height:35px;
+    width:88%;
+    border: none;
+    margin-bottom:15px;
+    margin-left:20px;
+}
+
+#input:active {
+    border-left: 5px solid #ccc;
+}
+
+#footer {
+    height: 50px;
+    background: #ecf0f1;
+    line-height: 50px;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 0px;
+}
+
+.dodaj {
+    float: right;
+    height: 50px;
+    width: 100px;
+    border: none;
+    background: #cccccc;
+    color: black;
+    border-radius: 0 0 5px 0;
+    transition: all ease-in-out .1s;
+}
+
+.izadji {
+    float: left;
+    height: 50px;
+    width: 100px;
+    border: none;
+    background: #cccccc;
+    color: black;
+    border-radius: 0 0 0 5px;
+    transition: all ease-in-out .1s;
+}
+
+izadji:hover , dodaj:hover {
+    background:black;
+    color:white;
+}
+
+izadji:focus, dodaj:focus {
+    outline: none;
+}
+
